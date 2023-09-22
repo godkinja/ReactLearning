@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.photo{
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
