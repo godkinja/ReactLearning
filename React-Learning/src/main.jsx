@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './style.css'
 
 //One way to do things is using Consts, but its preferable to use functions (Always capitalize the first letter of a function)
 
@@ -212,9 +213,19 @@ function Header(){
 
     <header>
 
-      <nav>
+      <nav className="nav">
 
-        <img src="/react-logo.png" alt="React Logo" width={150} />
+        <img src="/react-logo.png" alt="React Logo" className="nav-logo" />
+
+        <ul className="nav-items">
+
+          <li>Pricing</li>
+
+          <li>About</li>
+
+          <li>Contact</li>
+
+        </ul>
 
       </nav>
 
