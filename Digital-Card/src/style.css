@@ -15,3 +15,183 @@ body {
     background-color: #282D35;
 
 }
+
+.card{
+
+    width: 400px;
+
+    margin: 0 auto;
+
+    margin-top: 50px;
+
+    border-radius: 10px;
+
+    background-color: #1E2228;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    border: 1px solid #00b6ed;
+
+}
+
+.header {
+
+    color: white;
+
+}
+
+.header > img {
+
+    width: 200px;
+
+    border-radius: 50%;
+
+}
+
+.header > h3 {
+
+    margin-top: -20px;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+}
+
+.header > h4 > a{
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+.buttons{
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.email {
+
+    text-decoration: none;
+
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+
+    padding: 7px 15px;
+
+    border-radius: 5px;
+
+    border: 1px solid white;
+
+    background-color: white;
+
+    color: black;
+
+    font-size: 15px;
+
+    font-weight: 400;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+
+}
+
+.email:hover{
+
+    background-color: black;
+
+    color: white;
+
+    transition: 0.5s;
+
+}
+
+.LinkedIn {
+
+    text-decoration: none;
+
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+
+    margin-left: 30px;
+
+    padding: 7px 15px;
+
+    border-radius: 5px;
+
+    border: 1px solid #0086ed;
+
+    background-color: #0086ed;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 400;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+
+}
+
+.LinkedIn:hover{
+
+    background-color: white;
+
+    color: #0086ed;
+
+    transition: 0.5s;
+
+}
+
+.main-content {
+
+    color: white;
+
+}
+
+.main-content > p{
+
+    text-align: left;
+
+    font-size: 15px;
+
+}
+
+.footer {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 30px;
+
+}
+
+.footer > a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    padding: 0 10px;
+
+}
