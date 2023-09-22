@@ -8,11 +8,11 @@ export default function MainContent() {
 
             <h2>About</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas optio veniam rem reprehenderit quasi pariatur nobis minus quo officiis et.</p>
+            <p>Junior Full-Stack Developer from Portugal trying to learn as much as possible!</p>
 
             <h2>Interests</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas optio veniam rem reprehenderit quasi pariatur nobis minus quo officiis et.</p>
+            <p>Programming is my main Hobby, but i also love to play and cooking food, atleast my mother tells me my food is great!</p>
 
         </div>
 
