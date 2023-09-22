@@ -4,7 +4,8 @@ import './style.css'
 
 //One way to do things is using Consts, but its preferable to use functions (Always capitalize the first letter of a function)
 
-/*const page = (
+/*
+const page = (
 
   <div>
 
@@ -28,7 +29,7 @@ import './style.css'
 
   </div>
 
-)*/
+)
 
 function TemporaryName() {
 
@@ -60,13 +61,11 @@ function TemporaryName() {
 
 }
 
-//function in /components/firstClass.jsx
+function in /components/firstClass.jsx
 
-//ReactDOM.createRoot(document.getElementById('root')).render(page)
+ReactDOM.createRoot(document.getElementById('root')).render(page)
 
 ReactDOM.createRoot(document.getElementById('root')).render(<TemporaryName/>)
-
-/*
 
 DOM means Document Object Model. It's a tree-like structure
 
@@ -98,7 +97,7 @@ to tell it HOW to do each step.
 
 We have small pieces that we can put together to make something
 larger/greater than the individual pieces.
-*/
+
 
 //Components
 
@@ -128,7 +127,7 @@ function CustomPage() {
 
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<CustomPage/>)
+//ReactDOM.createRoot(document.getElementById('root')).render(<CustomPage/>)
 
 //Challenge 2:
 
@@ -172,9 +171,7 @@ function CustomPage2() {
 
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<CustomPage2/>)
-
-/*
+//ReactDOM.createRoot(document.getElementById('root')).render(<CustomPage2/>)
 
 1. What is a React component?
 A function that returns React elements. (UI)
@@ -202,8 +199,6 @@ function Header() {
 ReactDOM.render(Header(), document.getElementById("root"))
 
 A: We need to reference the function, not call it, using <Header/> instead of Header()
-
-*/
 
 //Parent + Child Components
 
@@ -292,3 +287,37 @@ function Page() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<Page/>)
+
+//Creation of Components to have a more organized code with functions being calle from another file
+//Every file that has JSX needs to import React, aswell as having the export default function name, for example export default Header;
+
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
+
+function Page() {
+
+  return (
+
+    <div>
+
+      <Header/>
+
+      <MainContent />
+
+      <Footer />
+
+    </div>
+
+  )
+
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<Page/>)
+
+import App from './App'
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>)
+
+*/
+

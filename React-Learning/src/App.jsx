@@ -1,23 +1,22 @@
+import React from 'react'
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
+
 function App() {
 
   return (
+
     <>
-      <nav>
+    
+      <Header/>
 
-        <h1>Scan'N'Go</h1>
+      <MainContent />
 
-        <ul>
-
-            <li>Pricing</li>
-
-            <li>About</li>
-
-            <li>Contact</li>
-
-        </ul>
-
-      </nav>
+      <Footer />
+    
     </>
+
   )
   
 }
