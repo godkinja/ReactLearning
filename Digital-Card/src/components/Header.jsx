@@ -18,7 +18,7 @@ export default function Header() {
 
                 <a className="email">Email</a>
 
-                <a className="LinkedIn" href="https://www.google.pt" target="_blank">LinkedIn</a>
+                <a className="LinkedIn" href="https://www.linkedin.com/in/rafaraimundo/" target="_blank">LinkedIn</a>
 
             </div>
 
