@@ -64,102 +64,32 @@ section{
 
 }
 
-.card{
+.card {
 
-    margin-left: 20px;
+    width: 175px;
 
-    max-width: 175px;
-
+    font-size: 12px;
+    
 }
 
-.card--photo{
+.card--image {
 
     width: 100%;
 
-    border-radius: 15px;
+    border-radius: 9px;
 
 }
 
-.rating--star{
+.card--stats {
 
     display: flex;
 
-}
-
-.rating--star--icon{
-
-    width: 20px;
-
-    height: 20px;
-
-    margin-top: 20px;
+    align-items: center;
 
 }
 
-.rating--star--text{
+.card--star {
 
-    margin-left: 5px;
-
-    margin-top: 20px;
-
-    font-size: 16px;
-
-    font-weight: 500;
-
-    color: #484848;
-
-}
-
-.rating--star--desc{
-
-
-    margin-left: 5px;
-
-    margin-top: 20px;
-
-    font-size: 16px;
-
-    font-weight: 500;
-
-    color: #747474;
-
-}
-
-.card--info{
-
-    margin-top: 0px;
-
-    margin-bottom: 10px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: space-between;
-
-
-}
-
-.card--price{
-
-    margin-top: 0px;
-
-    margin-bottom: 10px;
-
-    font-size: 16px;
-
-    font-weight: 500;
-
-    color: #000000;
-
-}
-
-.price--bold{
-
-    font-size: 16px;
-
-    font-weight: 700;
-
-    color: #000000;
-
+    height: 14px;
+    
 }

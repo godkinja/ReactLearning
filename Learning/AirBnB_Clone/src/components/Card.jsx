@@ -6,21 +6,23 @@ export default function Card() {
 
         <div className="card">
 
-            <img src="./katie-zaferes.png" alt="Katie Zaferes" className="card--photo"/>
+            <img src="katie-zaferes.png" className="card--image" />
 
-            <div className="rating--star">
+            <div className="card--stats">
 
-                <img src="./star.png" alt="Star" className="rating--star--icon"/>
+                <img src="star.png" className="card--star" />
 
-                <p className="rating--star--text">5.0</p>
+                <span>5.0</span>
 
-                <p className="rating--star--desc"> (6) • USA</p>
+                <span className="gray">(6) • </span>
+
+                <span className="gray">USA</span>
 
             </div>
 
-            <p className="card--info">Life lessons with Katie Zaferes</p>
+            <p>Life Lessons with Katie Zaferes</p>
 
-            <p className="card--price"><span className="price--bold">From $136</span> / person</p>
+            <p><span className="bold">From $136</span> / person</p>
 
         </div>
 
