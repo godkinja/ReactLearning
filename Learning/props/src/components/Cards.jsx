@@ -7,8 +7,6 @@ export default function Cards(props) {
     /*In case we declare the variables like Line 5, we don't need to call it as "props.img" and we can only call it img because it is already pointing to
     the props that is recieving*/
 
-    console.log(props)
-
     return (
         <>
         

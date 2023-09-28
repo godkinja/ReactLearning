@@ -13,7 +13,16 @@ export default function App() {
 
         <Hero />
 
-        <Card />
+        <Card 
+
+          image ="katie-zaferes.png"
+          rating ="5.0"
+          reviewCount ="6"
+          country = "POR"
+          title = "A Inês cheira mal"
+          price = "244"
+        
+        />
         
       </>
 
