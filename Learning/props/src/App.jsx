@@ -117,6 +117,8 @@ export default function App() {
 
 /*
 
+  Moved out so it renders with the const jokeElements
+
   <Joke 
       punchline="It’s hard to explain puns to kleptomaniacs because they always take things literally."
       isPun={false}
