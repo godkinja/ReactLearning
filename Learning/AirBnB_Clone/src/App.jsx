@@ -29,17 +29,6 @@ export default function App() {
 
         <Hero />
 
-        <Card 
-
-          image ="katie-zaferes.png"
-          rating ="5.0"
-          reviewCount ="6"
-          country = "POR"
-          title = "A Inês cheira mal"
-          price = "244"
-        
-        />
-
         {card}
         
       </>
@@ -47,3 +36,18 @@ export default function App() {
     )
 
 }
+
+/*
+
+<Card 
+
+  image ="katie-zaferes.png"
+  rating ="5.0"
+  reviewCount ="6"
+  country = "POR"
+  title = "A Inês cheira mal"
+  price = "244"
+
+/>
+
+ */
