@@ -4,11 +4,23 @@ export default function Card(props) {
 
     const { image, rating, reviewCount, country, title, price, openSpots } = props
 
+    let badgeText
+
+    if (openSpots === 0) {
+
+        badgeText = "SOLD OUT"
+
+    } else if (country === "Online") {
+
+        badgeText = "ONLINE"
+
+    }
+
     return (
 
         <div className="card">
 
-            {openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+            {badgeText && <div className="card--badge">{badgeText}</div>}
 
             <img src={image} className="card--image" />
 
