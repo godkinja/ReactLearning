@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import Cards from './components/Cards.jsx'
 import Joke from './components/Joke.jsx'
 import Arrays from './components/Arrays.jsx'
+import jokesData from './jokesData.js'
+
 
 export default function App() {
 
@@ -29,6 +31,27 @@ export default function App() {
     timeOfDay = 'night'
 
   }
+
+  const colors = [
+
+    <h3>Red</h3>,
+    <h3>Green</h3>,
+    <h3>Blue</h3>,
+    <h3>Yellow</h3>
+
+  ]
+
+  const jokeElements = jokesData.map(joke => {
+
+    return <Joke 
+    
+      setup={joke.setup}
+
+      punchline={joke.punchline}
+    
+    />
+
+  })
 
   return (
     <>
@@ -132,6 +155,10 @@ export default function App() {
       />
 
       <Arrays />
+
+      {colors}
+
+      {jokeElements}
 
     </>
   )
