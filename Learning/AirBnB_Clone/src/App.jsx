@@ -6,16 +6,16 @@ import Data from "./data.js"
 
 export default function App() {
 
-    const card = Data.map(card => 
+    const card = Data.map(item => 
       
       <Card 
 
-        image = {card.coverImg}
-        rating = {card.stats.rating}
-        reviewCount = {card.stats.reviewCount}
-        country = {card.location}
-        title = {card.title}
-        price = {card.price}
+        image = {item.coverImg}
+        rating = {item.stats.rating}
+        reviewCount = {item.stats.reviewCount}
+        country = {item.location}
+        title = {item.title}
+        price = {item.price}
 
       />
 
