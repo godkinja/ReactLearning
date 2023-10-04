@@ -8,7 +8,7 @@ export default function Card(props) {
 
         <div className="card">
 
-            <div className="card--badge">SOLD OUT</div>
+            {openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
 
             <img src={image} className="card--image" />
 
