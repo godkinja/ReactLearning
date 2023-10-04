@@ -2,11 +2,13 @@ import React from "react"
 
 export default function Card(props) {
 
-    const { image, rating, reviewCount, country, title, price } = props
+    const { image, rating, reviewCount, country, title, price, openSpots } = props
 
     return (
 
         <div className="card">
+
+            <div className="card--badge">SOLD OUT</div>
 
             <img src={image} className="card--image" />
 
@@ -22,9 +24,9 @@ export default function Card(props) {
 
             </div>
 
-            <p>{title}</p>
+            <p className="card--title">{title}</p>
 
-            <p><span className="bold">From ${price}</span> / person</p>
+            <p className="card--price"><span className="bold">From ${price}</span> / person</p>
 
         </div>
 
