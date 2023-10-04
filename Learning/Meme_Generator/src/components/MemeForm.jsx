@@ -1,4 +1,20 @@
+import memesData from "../memesData"
+
 export default function MemeForm() {
+
+    let url
+
+    function getMemeImage(){
+
+        const memesArray = memesData.data.memes
+
+        const randomNumber = Math.floor(Math.random() * memesArray.length)
+
+        url = memesArray[randomNumber].url
+
+        console.log(url)
+
+    }
 
     return (
 
@@ -29,6 +45,8 @@ export default function MemeForm() {
                 <button 
 
                     className="form--button"
+
+                    onClick={getMemeImage}
 
                 >
 
