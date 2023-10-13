@@ -34,7 +34,13 @@ export default function App() {
 
   console.log(greeting("John"))*/
 
-  const [isImportant, func] = useState("Yes"); // [value, function] 
+  const [isImportant, setIsImportante] = useState("Yes"); // [value, function] 
+
+  function handleClick(){
+
+    setIsImportante("No");
+
+  }
 
   console.log(isImportant);
     
@@ -44,7 +50,7 @@ export default function App() {
 
           <h1 className="state--title">Is state important to know?</h1>
 
-          <div className="state--value">
+          <div className="state--value" onClick={handleClick}>
 
               <h1>{isImportant}</h1>
 
